@@ -2,14 +2,14 @@
 
 A simple, interactive web-based guessing game. Built using pure frontend web technologies.
 
-## 🚀 Features
+## Features
 
 * **Interactive UI**: Clean and vibrant purple theme.
 * **Hover Effects**: Smooth transitions on button.
 * **Dynamic Hint Box**: Real-time feedback guides your guesses.
 * **Instant Start**: Begin playing with a single click.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **HTML**: Structures the game layout and inputs.
 * **CSS**: Handles custom styling and hover animations.
