@@ -1,4 +1,5 @@
 const number = Math.floor(Math.random() * 100) + 1;
+let count = 0;
 function hints() {
     let user = Number(document.getElementById("guess").value);
     const hint = document.getElementById("hint");
@@ -9,6 +10,9 @@ function hints() {
     } else {
         hint.textContent = "YOU GUESSED IT RIGHT!";
     }
+    count = count + 1;
+    const tries = document.getElementById("tries");
+    tries.textContent = count;
 }
 start.addEventListener('click', hints);
 

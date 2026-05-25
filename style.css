@@ -5,7 +5,7 @@ body{
     overflow: hidden;
 }
 #text1{
-    margin-top: 35%;
+    margin-top: 5%;
     margin-left: 45%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #c7ae52;
@@ -19,14 +19,6 @@ body{
     border-radius: 5%;
     background-color:#c7ae52;
     border: 1px solid;
-
-}
-#hint{
-    margin-left: 700px;
-    height: 50px;
-    width: 250px;
-    border-color: black;
-    margin-top: -25%;
 
 }
 #start{
@@ -44,4 +36,22 @@ body{
 #start:active {
     top: 4px; 
     box-shadow: 2px 2px 2px #d215b3; 
+}
+#layout{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+#tries{
+    margin-top: 5px;
+    resize: none;
+}
+.text2{
+    margin-top: 70px;
+}
+#hint{
+    margin-left: 90px;
+    height: 50px;
+    width:250px;
+    margin-top:20px;
 }
