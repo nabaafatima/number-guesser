@@ -7,7 +7,7 @@ body{
 #text1{
     margin-top: 5%;
     margin-left: 45%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #c7ae52;
 
 }
@@ -19,7 +19,7 @@ body{
     border-radius: 5%;
     background-color:#c7ae52;
     border: 1px solid;
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #start{
     height: 70px;
@@ -45,13 +45,28 @@ body{
 #tries{
     margin-top: 5px;
     resize: none;
+    width: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    height: 30px;
 }
 .text2{
     margin-top: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #hint{
     margin-left: 90px;
     height: 50px;
     width:250px;
     margin-top:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rules{
+    margin-left: 800px;
+    margin-top: -70%;
+    white-space: nowrap;
+    width: max-content;  
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
